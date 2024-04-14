@@ -157,7 +157,7 @@
         	     $result = $conn->query($query);
 
         	            if ($result->num_rows > 0) {
-                	        // Mostrar las películas en la tabla
+                	        // Mostrar los productos en la tabla
                         	while ($row = $result->fetch_assoc()) {
 	                            echo "<tr>";
         	                    echo "<td>" . $row['ID'] . "</td>";
