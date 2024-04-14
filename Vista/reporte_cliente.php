@@ -126,17 +126,16 @@
                 </thead>
                 <tbody>
                     <?php
-                    // Incluir el archivo de conexión a la base de datos y la definición de la clase cliente, peliculas y empleado
+                    // Incluir el archivo de conexión a la base de datos y la definición de la clase
                     require_once('../Modelo/db.php');
                     require_once('../Modelo/cliente.php');
                     // Establecer conexión
                     $conexion = new Conexion();
                     $conn = $conexion->conectar();
 
-                    // Instanciar la clase cliente, pelicula y empleado
+                    // Instanciar la clase cliente
                     $cliente = new Cliente();
 
-                    // Consultar los tickets de pelicula en la base de datos
 
                     if ($_SERVER["REQUEST_METHOD"] == "POST")
                     {  
