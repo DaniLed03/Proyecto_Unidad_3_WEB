@@ -131,7 +131,7 @@
                 <tbody>
                     <?php
 
-                    // Incluir el archivo de conexión a la base de datos y la definición de la clase Genero
+                    // Incluir el archivo de conexión a la base de datos
                     require_once('../Modelo/db.php');
 
                     // Establecer conexión
