@@ -1,0 +1,15 @@
+.container-form {
+    background-color: #001834;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Margen de 20px en la parte inferior */
+}
+
+.container-form h2 {
+    color: #fff;
+}
+
+.container-form label {
+    color: #fff;
+}
+

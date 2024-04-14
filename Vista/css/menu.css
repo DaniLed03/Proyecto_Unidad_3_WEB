@@ -1,0 +1,45 @@
+body {
+    background-color: #000; /* Color de fondo negro */
+  }
+/* Estilos para el logo */
+.navbar-brand img {
+    width: 50px; /* Ancho deseado del logo */
+  }
+
+  /* Estilos para cambiar el color del Navbar */
+  .navbar-custom {
+    background-color: #001834; /* Cambiar el color del Navbar a azul */
+  }
+
+  .navbar-custom .navbar-nav .nav-link {
+    color: #fff; /* Cambiar el color del texto de los enlaces */
+  }
+
+  .navbar-custom .navbar-nav .nav-link:hover {
+    color: #ccc; /* Cambiar el color del texto de los enlaces al pasar el mouse */
+  }
+
+/* Estilos para el botón de búsqueda */
+    .btn-outline-success {
+        color: #ffffff; /* Color del texto negro */
+        border-color: #fff; /* Color del borde blanco */
+    }
+
+  /* Estilos para el botón de búsqueda cuando el mouse pasa por encima */
+  .btn-outline-success:hover {
+    color: #000000; /* Color del texto blanco */
+    background-color: #ffffff; /* Color de fondo negro */
+    border-color: #fff; /* Color del borde blanco */
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px; /* Ancho del scrollbar */
+}
+::-webkit-scrollbar-thumb {
+    background-color: #001834; /* Color del scrollbar */
+    border-radius: 5px; /* Borde del scrollbar */
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #001834; /* Color del scrollbar al pasar el mouse */
+}
+
