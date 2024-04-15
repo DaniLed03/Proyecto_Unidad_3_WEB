@@ -13,7 +13,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-custom">
-    <a class="navbar-brand" href="menu.html"><img src="img/logo.png" alt="Logo"></a>
+    <a class="navbar-brand" href="menu.html"><img src="Img/logo.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -122,7 +122,7 @@
                     <select class="form-control" id="id_cliente" name="id_cliente" required>
                         <?php
                         // Aquí obtienes los clientes disponibles desde la base de datos
-                        require_once('../Modelo/Cliente.php');
+                        require_once('../Modelo/cliente.php');
                         $cliente = new Cliente();
                         $clientes = $cliente->obtenerClientesDisponibles();
                         foreach ($clientes as $cliente) {

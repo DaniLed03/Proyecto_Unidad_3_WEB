@@ -13,7 +13,7 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-custom">
-    <a class="navbar-brand" href="menu.html"><img src="img/logo.png" alt="Logo"></a>
+    <a class="navbar-brand" href="menu.html"><img src="Img/logo.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -89,7 +89,7 @@
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="searchInput">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
@@ -98,7 +98,7 @@
     <div class="container mt-5">
         <div class="container-form" style="background-color: #001834; padding: 20px;">
             <h2 class="mb-4">Alta de Cliente</h2>
-            <form id="altaClienteForm" action="../Controladores/ClienteController.php?action=alta" method="post">
+            <form id="altaClienteForm" action="../Controladores/clienteController.php?action=alta" method="post">
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
                     <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -133,7 +133,7 @@
         } else {
             Swal.fire({
                 title: "¿Estás seguro?",
-                text: "¿Quieres guardar este empleado?",
+                text: "¿Quieres guardar este cliente?",
                 icon: "question",
                 showCancelButton: true,
                 confirmButtonColor: "#3085d6",
@@ -141,7 +141,7 @@
                 confirmButtonText: "Sí, guardar"
             }).then((result) => {
                 if (result.isConfirmed) {
-                    document.getElementById("altaEmpleadoForm").submit();
+                    document.getElementById("altaClienteForm").submit();
                 }
             });
         }

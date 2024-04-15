@@ -1,8 +1,8 @@
 <?php
 class Conexion {
     private $host = "localhost";
-    private $user = "root";
-    private $password = "D4n13l2003";
+    private $user = "admin";
+    private $password = "d774705097f7c6ba20213392b4a675699756d57b4f94b221";
     private $database = "cinema";
 
     public function conectar() {

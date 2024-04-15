@@ -1,6 +1,6 @@
 <?php
 
-require_once('../Modelo/Cliente.php');
+require_once('../Modelo/cliente.php');
 
 class ClienteController {
     public function altaCliente() {

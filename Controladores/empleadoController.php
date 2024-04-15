@@ -62,8 +62,8 @@ class EmpleadoController {
             echo "Acceso no permitido.";
         }
     }
-    
-}*/
+ */   
+}
 
 if (isset($_GET['action'])) {
     $action = $_GET['action'];
@@ -75,9 +75,6 @@ if (isset($_GET['action'])) {
             break;
         case 'editar':
             $empleadoController->editarEmpleado();
-            break;
-        case 'eliminar':
-            $empleadoController->eliminarEmpleado();
             break;
         default:
             echo "Acción no válida.";
