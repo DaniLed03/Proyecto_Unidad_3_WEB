@@ -89,7 +89,7 @@
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="searchInput">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
@@ -100,7 +100,7 @@
             <form id="ventaSnacksForm" action="../Controladores/VentaSnackController.php?action=venta"
                 method="post">
                 <div class="form-group">
-                    <label for="producto">Producto:</label>
+                    <label for="id_producto">Producto:</label>
                     <select class="form-control" id="id_producto" name="id_producto" required>
                         <?php
                         // Aquí obtienes los productos disponibles desde la base de datos
